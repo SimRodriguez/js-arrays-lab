@@ -6,11 +6,12 @@ Exercise 1: Define an empty array
 Exercise 1 has been completed for you:
 */
 
-const foods = [
-    'pizza',
-    'cheeseburger'
-    // added strings to the array, part of exercise 2
-];
+const foods = [];  
+
+console.log('Exercise 1 result:', foods);
+
+foods.push('pizza', 'cheeseburger'); // added strings to the array, part of exercise 2
+console.log(foods);
 
 console.log('Exercise 1 result:', foods);
 
@@ -58,9 +59,9 @@ Exercise 6: Replace elements
 Complete Exercise 6 in the space below:
 */
 
-foods.splice(0, 2, 'sushi', 'cupcake');
+foods.splice(1, 1, "sushi", "cupcake")
 
-console.log('Exercise 6 result:', foods);
+console.log('Exercise 6 result:', foods); 
 
 
 /*
@@ -89,7 +90,9 @@ Exercise 8: Finding an index
 Complete Exercise 8 in the space below:
 */
 
-const soyIdx = foods[2];
+const soyIdx = 'tofu';
+
+const indexOf = foods.indexOf(soyIdx)
 
 console.log('Exercise 8 result:', soyIdx);
 
